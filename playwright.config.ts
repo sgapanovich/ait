@@ -11,7 +11,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: 'html',
   use: {
-    baseURL: "https://team2.automationintesting.online",
+    baseURL: "http://localhost:8080",
     launchOptions: {
       slowMo: 2000,
     },
